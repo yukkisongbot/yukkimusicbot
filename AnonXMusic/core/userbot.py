@@ -141,7 +141,7 @@ class Userbot(Client):
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "αѕѕιѕтαит ѕтαятє∂......... 🎖️")
+                await self.five.send_message(config.LOGGER_ID, "αѕѕιѕтαит ѕтαятє∂ 🔮......... 🎖️")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
